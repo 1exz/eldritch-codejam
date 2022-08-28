@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.background{
+    margin: 0;
+    background: url(/assets/home.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    min-width: 40%;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.ancient-card{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+   }
+   .diffuculty-conteiner{
+    display: flex;
+    justify-content: center;
+   }
+   .difucalty{
+    border: 2px solid purple;
+    box-sizing: border-box;
+    color: purple;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    transition: ease-in-out 3s;
+}
+.deck-container{
+    display: flex;
+    justify-content: center;
+}
+.mix{
+    background-color: red;
+    border: 2px solid purple;
+    color: purple;
+    cursor: pointer;
+    padding: 5px;
+    width: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cardStyle{
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    margin-top: 120px;
+    margin-left: 80px;
+    transition: ease-in-out 3s;
+}
+.card{
+    display:flex
+}
+.lastCard{
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
